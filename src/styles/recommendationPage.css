@@ -7,7 +7,6 @@ body {
 }
 
 .hashtags {
-    margin-top: 100px;
     text-align: center;
     font-size: 18px;
     color: #5E5E5E;
@@ -18,10 +17,15 @@ body {
     text-align: center;
     color: #000;
     font-size: 32px;
-    margin-top: 30px;
-    margin-bottom: 100px;
     font-size: x-large;
 }
+
+#map {
+    width: 50%;
+    height: 400px;
+    margin: -80px auto 40px auto; /* 위쪽 간격을 줄임 */
+}
+
 .day-header {
     display: flex;
     justify-content: space-between;
@@ -74,8 +78,6 @@ body {
     max-width: 700px;
     position: relative;
 }
-
-
 
 .place-info {
     display: flex;

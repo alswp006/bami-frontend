@@ -158,7 +158,7 @@ const ShortTermMap = () => {
         <button onClick={handleSearch}></button>
       </div>
       <hr id="horizontal-line"></hr>
-      <div id="map" style={{ width: '100%', height: '660px' }}>
+      <div id="map" style={{ width: '100%', height: '660px', marginTop: '100px'}}>
       </div>
     </div>
   );

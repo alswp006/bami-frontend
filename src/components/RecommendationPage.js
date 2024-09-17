@@ -70,7 +70,7 @@ const RecommendationPage = () => {
             const newMarkers = [];
     
             recommendations[currentDay].places.forEach((place, index) => {
-                const markerPosition = new window.kakao.maps.LatLng(place.longitude, place.latitude);
+                const markerPosition = new window.kakao.maps.LatLng(place.latitude, place.longitude);
     
                 // 개선된 마커 디자인 (둥근 원 안에 숫자를 포함)
                 const markerContent = `
